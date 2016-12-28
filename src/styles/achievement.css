@@ -1,0 +1,60 @@
+.achievements {
+  background-image: url("../img/blue-wall-cloud.jpg");
+  background-size: cover;
+  padding-top: 46px;
+}
+@media (max-width: 600px) {
+  .achievements {
+    height: auto;
+  }
+  .achievements-list {
+    flex-direction: column;
+  }
+}
+.achievements-title {
+  height: 12%;
+  padding-top: 36px;
+}
+.achievements-title h1{
+  font-size: 40px;
+  color : white;
+}
+.paper-achievement {
+  height: 100%;
+}
+.img-achievement {
+  height: 30%;
+}
+.content-achievement {
+  height: 80%;
+}
+.text-achievement {
+  width: 80%;
+  margin : auto;
+}
+.text-achievement-title {
+  height: 20%;
+}
+.text-achievement-title h1 {
+  font-size: 18px;
+  color : #555;
+}
+.img-calculator {
+  background-image: url("../img/calculator.jpg");
+  background-size: cover;
+}
+.img-mix-it {
+  background-image: url("../img/mix-it-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #EE5351;
+}
+.img-report {
+  background-image: url("../img/crypto-wallpaper.jpg");
+  background-size: cover;
+}
+.img-react {
+  background-image: url("../img/react-logo.png");
+  background-size: cover;
+}

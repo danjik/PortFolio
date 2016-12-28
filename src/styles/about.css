@@ -1,0 +1,52 @@
+.overlay-about {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../img/about.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: brightness(20%);
+        -webkit-filter: brightness(20%);
+        -moz-filter: brightness(20%);
+        -o-filter: brightness(20%);
+        -ms-filter: brightness(20%);
+}
+
+.about-panel {
+  position: relative;
+  height: calc(100% - 64px);
+}
+
+
+.timeline-panel {
+  height: auto;
+  background-image: url('../img/blue-wall.jpg');
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.about-presentation {
+  color : white;
+  flex-direction: column;
+  height: 100%;
+}
+.about-welcome {
+  font-size: 46px;
+  margin-bottom: 16px;
+}
+.about-tell {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+.about-cite::before {
+  content: open-quote;
+  padding-right: 3px;
+}
+.about-cite::after {
+  content: close-quote;
+  padding-left: 3px;
+}
+.about-cite {
+  font-size: 14px;
+}

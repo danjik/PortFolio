@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "CaviarDreams";
+    src: url(../font/Caviar-Dreams/CaviarDreams.ttf) format("truetype");
+}
+
+* {
+    font-family: 'CaviarDreams', sans-serif!important;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-footer {
+
+  background-color: #222;
+}
+.footer {
+  height: 20vh ;
+  width: 60%;
+  margin: auto;
+}
+.part-footer h1 {
+  font-weight: bold;
+}
+.part-footer-left {
+  float : left;
+}
+.part-footer-right {
+  float : right;
+}
+.part-footer {
+  color : white;
+  height: 100%;
+}
+.contact-information {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.logo {
+  background-image: url("../img/logo-blanc.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}

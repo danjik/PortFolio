@@ -1,0 +1,49 @@
+.timeline-date {
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  color : white;
+  position: relative;
+  top : 4px;
+  -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  z-index: 2;
+}
+.timeline-transition {
+  -webkit-box-shadow: 0 5px 0px 0px white, 0 0px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+  box-shadow: 0 5px 0px 0px white, 0 0px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+  width: 10px;
+  position: relative;
+  min-height: 10px;
+  background-color: white;
+  border: none;
+}
+.timeline-panel {
+  position: relative;
+  flex-direction: column;
+}
+.timeline-transition-before {
+  z-index: 2;
+}
+.timeline-transition-after {
+  z-index: 4;
+}
+.timeline-card {
+  padding-top: 16px;
+  width: 80%;
+  margin: auto;
+}
+.timeline-card-title {
+  margin-bottom: 16px;
+  font-size: 28px;
+  color : #777;
+}
+.timeline-card-location {
+  margin-bottom: 16px;
+  font-size: 20px;
+  color : #BBB;
+}
+.timeline-card-experience {
+  margin-bottom: 32px;
+}

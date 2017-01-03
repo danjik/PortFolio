@@ -12,28 +12,25 @@ var Contact = React.createClass({
     const styleIcons = {
       marginRight : '8px'
     }
-    const labelStyle = {
-      color : "red",
-    }
     return (
       <div className="contact-panel">
         <div className="flex-center contact-location">
           <Link to="https://goo.gl/maps/AEHDVAdDCZC2" target="_blank"
-          labelStyle={ labelStyle } className="flex-center pdf-download">
+            className="flex-center pdf-download">
             <ActionRoom style={ styleIcons } color={ grey800 } />
             <span>Limoges</span>
           </Link>
         </div>
         <div className="flex-center contact-email">
         <Link to="mailto:jtaillefer02@gmail.com" target="_blank"
-          labelStyle={ labelStyle } className="flex-center pdf-download">
+         className="flex-center pdf-download">
           <ContentMail style={ styleIcons } color={ grey800 } />
           <span>Email</span>
           </Link>
         </div>
         <div className="flex-center contact-resume">
           <Link to="src/misc/Resume-Taillefer.pdf" target="_blank"
-            labelStyle={ labelStyle } className="flex-center pdf-download">
+             className="flex-center pdf-download">
             <ActionDescription style={ styleIcons } color={ grey800 } />
             <span>Resume</span>
           </Link>

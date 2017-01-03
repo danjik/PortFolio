@@ -28,10 +28,10 @@ const Achievement = React.createClass({
                   <h1>Cryptographic calculator</h1>
                 </div>
                 <div className="text-achievement">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Praesentium nostrum hic alias officiis rerum incidunt. Laboru
-                  m, in, illum optio consequuntur quis minus dicta quas t
-                  empora eaque amet est ut officiis.
+                  In order to make easier the cryptographic functions, we
+                  were asked to build an application. The project has
+                  to propose an IHM allowing functions to encrypt/decrypt
+                  (RSA,AES,DES...), hash and sign a message.
                 </div>
               </div>
             </div>
@@ -44,10 +44,10 @@ const Achievement = React.createClass({
                   <h1>Mix-it</h1>
                 </div>
                 <div className="text-achievement">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Atque, nostrum, quis. Quasi, eos perspiciatis repellat recusa
-                  ndae dicta, pariatur hic voluptas modi, quidem magnam n
-                  ulla assumenda officia consectetur facilis magni ipsam!
+                  I built this project in ReactJS in order to improve my web skills.
+                  The application allow the user to add a Youtube playlist, then,
+                  it will mix the transition between the music and remove the time without
+                  music.
                 </div>
               </div>
             </div>
@@ -62,11 +62,8 @@ const Achievement = React.createClass({
                   <h1>Cryptographic report</h1>
                 </div>
                 <div className="text-achievement">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusantium amet iure assumenda nemo libero, maxime officiis
-                  perferendis, excepturi possimus similique! Eligendi at
-                  itaque sapiente dolorem perferendis eius ratione,
-                  voluptate illum.
+                  Based on papers written by specialists, we were
+                  asked to write a report on the subject "Side Channel Attack"
                 </div>
               </div>
             </div>
@@ -79,10 +76,8 @@ const Achievement = React.createClass({
                   <h1>ReactJS/React Native</h1>
                 </div>
                 <div className="text-achievement">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Optio reiciendis eos nihil dicta libero dolorum, in esse qui
-                  ab laborum explicabo ipsam quae necessitatibus soluta i
-                  llo maxime expedita nostrum earum.
+                  After trying some web technology (Symfony2, AngularJS, JQuery;...),
+                  I decided to learn more and master ReactJS and his mobile side React Native
                 </div>
               </div>
             </div>

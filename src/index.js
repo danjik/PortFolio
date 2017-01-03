@@ -9,7 +9,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import Home from './scripts/containers/Home'
 import About from './scripts/containers/About'
-import Project from './scripts/containers/Project'
+import Realisation from './scripts/containers/Realisation'
 import Work from './scripts/containers/Work'
 
 import injectTapEventPlugin from 'react-tap-event-plugin'
@@ -24,7 +24,7 @@ ReactDOM.render(
       <Router history={ browserHistory }>
         <Route path="/about" component={ About } />
         <Route path="/work" component={ Work } />
-        <Route path="/project" component={ Project } />
+        <Route path="/project" component={ Realisation } />
         <Route path="*" component={ Home } />
       </Router>
     </MuiThemeProvider>

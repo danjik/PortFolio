@@ -1,0 +1,67 @@
+.project-panel {
+  background-image: url("../img/blue-wall.jpg");
+  background-size: cover;
+  padding-top: 46px;
+}
+.projects-list {
+  flex-direction: column;
+}
+.projects-title {
+  height: 12%;
+  padding-bottom: 16px;
+}
+.projects-title h1{
+  font-size: 26px;
+  color : white;
+}
+.project-content {
+  width: calc( 100% - 200px);
+  padding-bottom: 16px;
+}
+.project-logo {
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+.project-content-title {
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.title-bold {
+  font-weight: bold;
+  padding-right: 6px
+}
+.project-content-text div{
+  padding-bottom: 8px;
+  display: flex;
+}
+.project-content-text {
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  display: flex;
+  text-align: left;
+}
+.project-calculator {
+  background-image: url("../img/calculator-small.jpg");
+}
+.project-report {
+  background-image: url("../img/crypto-wallpaper-small.jpg");
+}
+.project-raspberry {
+  background-image: url("../img/raspberry.jpg");
+}
+.project-binary {
+  background-image: url("../img/binary-wall.jpg");
+}
+.project-password {
+  background-image: url("../img/password.jpg");
+}
+.project-download {
+  text-decoration: none;
+  padding-right: 16px;
+  color : blue;
+  padding-bottom: 16px;
+}

@@ -2,11 +2,12 @@ import React from 'react'
 
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-import Project from '../components/Project'
 
-import '../../styles/work.css'
+import Production from '../components/Production'
 
-var Work = React.createClass({
+import '../../styles/realisation.css'
+
+var Realisation = React.createClass({
   getInitialState() {
     return ({
     })
@@ -14,18 +15,18 @@ var Work = React.createClass({
   render() {
     return (
       <div className="wrapper">
-        <NavBar tabs="work"/>
-          <div className="work-panel">
-            <div className="overlay-work"></div>
+        <NavBar tabs="project"/>
+          <div className="realisation-panel">
+            <div className="overlay-realisation"></div>
             <div className="flex-center home-presentation">
               <span className="home-name">Let's have a look on my project</span>
             </div>
           </div>
-            <Project/>
+          <Production/>
         <Footer/>
       </div>
     )
   }
 })
 
-export default Work
+export default Realisation

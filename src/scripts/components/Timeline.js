@@ -17,7 +17,6 @@ var Timeline = React.createClass({
         <Paper style={ paperStyle } zDepth={ 4 } rounded={ false }>
           <div className="timeline-card">
             <div className="timeline-card-title">End-of-course internship</div>
-            <div className="timeline-card-location">Lorem ipsum dolor sit amet.</div>
             <div className="timeline-card-experience">
               I'm currently looking for an internship on security
             </div>
@@ -31,11 +30,7 @@ var Timeline = React.createClass({
             <div className="timeline-card-title">Master in computer security</div>
             <div className="timeline-card-location">Faculty of Science and Technology</div>
             <div className="timeline-card-experience">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I'm currently studying at Faculty of Science and Technology of Limoges
             </div>
           </div>
         </Paper>
@@ -59,8 +54,11 @@ var Timeline = React.createClass({
             <div className="timeline-card-title">Internship at the CPAM</div>
             <div className="timeline-card-location">CPAM, Limoges, France</div>
             <div className="timeline-card-experience">
-              Because of his satisfaction, my supervisor offered
-              to continue my work for the rest of the summer
+              In order to validate my DUT Informatique, I was asked
+              to carry out an internship in computer science.
+              My subject was to realise an application allowing a
+              user to build his own official document dynamically.
+              Moreover, i had to take back a beginning of application coded in Symfony2.
             </div>
           </div>
         </Paper>
@@ -71,8 +69,7 @@ var Timeline = React.createClass({
             <div className="timeline-card-title">DUT Informatique</div>
             <div className="timeline-card-location">IUT du Limousin, Limoges, France</div>
             <div className="timeline-card-experience">
-              Because of his satisfaction, my supervisor offered
-              to continue my work for the rest of the summer
+              I graduated from the IUT du Limousin in computer science.
             </div>
           </div>
         </Paper>
@@ -84,8 +81,7 @@ var Timeline = React.createClass({
             <div className="timeline-card-title">Baccalauréat Scientifique (French national high diploma)</div>
             <div className="timeline-card-location">Lycée Turgot, Limoges, France</div>
             <div className="timeline-card-experience">
-              Because of his satisfaction, my supervisor offered
-              to continue my work for the rest of the summer
+              I graduated from the Lycée Turgot.
             </div>
           </div>
         </Paper>

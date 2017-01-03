@@ -38,6 +38,7 @@
 .about-tell {
   font-size: 28px;
   margin-bottom: 16px;
+  width: 60%;
 }
 .about-cite::before {
   content: open-quote;
@@ -49,4 +50,5 @@
 }
 .about-cite {
   font-size: 14px;
+  width: 60%;
 }

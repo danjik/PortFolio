@@ -18,7 +18,7 @@ var Work = React.createClass({
           <div className="work-panel">
             <div className="overlay-work"></div>
             <div className="flex-center home-presentation">
-              <span className="home-name">Let's have a look on my project</span>
+              <span className="home-name">Let's have a look on my work</span>
             </div>
           </div>
             <Project/>

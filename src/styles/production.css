@@ -18,6 +18,13 @@
   background-color: #222;
   background-size: 125px;
 }
+.production-intelligence {
+  background-image: url("../img/intelligence-artificielle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #222;
+  background-size: cover;
+}
 .production-logo {
   float: right;
   width: 200px;

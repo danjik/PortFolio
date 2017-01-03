@@ -1,3 +1,11 @@
+.presentation-text {
+  color : white;
+  width: 60%;
+  text-align: justify;
+  padding-bottom: 24px;
+
+}
+
 .timeline-date {
   border: 5px solid white;
   border-radius: 50%;
@@ -31,7 +39,7 @@
 }
 .timeline-card {
   padding-top: 16px;
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 .timeline-card-title {
@@ -46,4 +54,6 @@
 }
 .timeline-card-experience {
   margin-bottom: 32px;
+  text-align: justify;
+  
 }

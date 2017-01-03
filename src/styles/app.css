@@ -20,26 +20,35 @@
   text-align: center;
 }
 .wrapper-footer {
-
   background-color: #222;
+
 }
 .footer {
-  height: 20vh ;
-  width: 60%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: left;
   margin: auto;
 }
 .part-footer h1 {
   font-weight: bold;
 }
 .part-footer-left {
-  float : left;
 }
 .part-footer-right {
-  float : right;
 }
 .part-footer {
   color : white;
   height: 100%;
+  text-align: left;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .contact-information {
   display: -webkit-flex;

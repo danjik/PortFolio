@@ -6,7 +6,7 @@ import '../../styles/timeline.css'
 var Timeline = React.createClass({
   render() {
   const paperStyle = {
-    width: 480,
+    maxWidth: 480,
     textAlign: 'center',
     backgroundColor : "white",
     display: 'inline-block',
@@ -14,11 +14,21 @@ var Timeline = React.createClass({
   }
     return(
       <div className="flex-center timeline-panel">
+        <div className="presentation-text">
+          Hello! My name is Jordan, I'm currently a French student and I have 23 years old.
+        </div>
+        <div className="presentation-text">
+          Being a video game player, I began at the age of 14 to take an
+          interest in how i could creating one, which led me to discover
+          the basics of algorithmics and programming. I subsequently decided
+          to pursue my studies in order to cover all the wealth offered by
+          computer science. I am now in 2nd year of Master in Computer Cryptography.
+        </div>
         <Paper style={ paperStyle } zDepth={ 4 } rounded={ false }>
           <div className="timeline-card">
-            <div className="timeline-card-title">End-of-course internship</div>
+            <div className="timeline-card-title">End-of-course internship of the Master</div>
             <div className="timeline-card-experience">
-              I'm currently looking for an internship on security
+              I'm currently looking for an internship on security.
             </div>
           </div>
         </Paper>
@@ -66,7 +76,7 @@ var Timeline = React.createClass({
         <div className="flex-center timeline-transition timeline-transition-before"/>
         <Paper style={ paperStyle } zDepth={ 4 } rounded={ false }>
           <div className="timeline-card">
-            <div className="timeline-card-title">DUT Informatique</div>
+            <div className="timeline-card-title">DUT Informatique (Diploma of Higher Education)</div>
             <div className="timeline-card-location">IUT du Limousin, Limoges, France</div>
             <div className="timeline-card-experience">
               I graduated from the IUT du Limousin in computer science.

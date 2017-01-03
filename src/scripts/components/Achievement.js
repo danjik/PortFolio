@@ -29,7 +29,10 @@ const Achievement = React.createClass({
                 </div>
                 <div className="text-achievement">
                   In order to make easier the cryptographic functions, we
-                  were asked to build an application. The project has
+                  were asked to build an application.
+                </div>
+                <div className="text-achievement">
+                  The project has
                   to propose an IHM allowing functions to encrypt/decrypt
                   (RSA,AES,DES...), hash and sign a message.
                 </div>
@@ -45,6 +48,8 @@ const Achievement = React.createClass({
                 </div>
                 <div className="text-achievement">
                   I built this project in ReactJS in order to improve my web skills.
+                </div>
+                <div className="text-achievement">
                   The application allow the user to add a Youtube playlist, then,
                   it will mix the transition between the music and remove the time without
                   music.
@@ -65,6 +70,10 @@ const Achievement = React.createClass({
                   Based on papers written by specialists, we were
                   asked to write a report on the subject "Side Channel Attack"
                 </div>
+                <div className="text-achievement">
+                  The goal is to learn a new attack and tell to our classmates what we
+                  understood and learnt.
+                </div>
               </div>
             </div>
           </Paper>
@@ -76,7 +85,7 @@ const Achievement = React.createClass({
                   <h1>ReactJS/React Native</h1>
                 </div>
                 <div className="text-achievement">
-                  After trying some web technology (Symfony2, AngularJS, JQuery;...),
+                  After trying some web technologies like Symfony2, AngularJS, JQuery,
                   I decided to learn more and master ReactJS and his mobile side React Native
                 </div>
               </div>

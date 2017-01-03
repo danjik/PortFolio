@@ -29,7 +29,7 @@ var Contact = React.createClass({
           </Link>
         </div>
         <div className="flex-center contact-resume">
-          <Link to="src/misc/Resume-Taillefer.pdf" target="_blank"
+          <Link to="static/media/Resume-Taillefer.pdf" target="_blank"
              className="flex-center pdf-download">
             <ActionDescription style={ styleIcons } color={ grey800 } />
             <span>Resume</span>

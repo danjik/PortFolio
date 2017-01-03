@@ -19,7 +19,7 @@ var Realisation = React.createClass({
           <div className="realisation-panel">
             <div className="overlay-realisation"></div>
             <div className="flex-center home-presentation">
-              <span className="home-name">Let's have a look on my project</span>
+              <span className="home-name">You want to see my personal project ?</span>
             </div>
           </div>
           <Production/>

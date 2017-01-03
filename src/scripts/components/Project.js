@@ -158,13 +158,13 @@ const Project = React.createClass({
                 </div>
                 <div>
                   <span className="title-bold">Download : </span>
-                  <Link to="src/misc/Cookbook_Oauth_Taillefer.pdf" target="_blank"
+                  <Link to="static/media/Cookbook_Oauth_Taillefer.pdf" target="_blank"
                     className="project-download">
                       <span>
                         Cookbook Oauth
                       </span>
                   </Link>
-                  <Link to="src/misc/Cookbook_Radius_Taillefer.pdf" target="_blank"
+                  <Link to="static/media/Cookbook_Radius_Taillefer.pdf" target="_blank"
                    className="project-download">
                       <span>
                         Cookbook Radius

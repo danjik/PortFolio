@@ -6,20 +6,20 @@
   flex-direction: column;
 }
 .production-mixit {
-  background-image: url("../img/mix-it-logo.png");
+  background-image: url("../img/mix-it-logo-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #EE5351;
 }
 .production-portfolio {
-  background-image: url("../img/logo-blanc.png");
+  background-image: url("../img/logo-blanc-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #222;
   background-size: 125px;
 }
 .production-intelligence {
-  background-image: url("../img/intelligence-artificielle.jpg");
+  background-image: url("../img/intelligence-artificielle-min.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #222;
@@ -31,7 +31,7 @@
   height: 200px;
 }
 .logo-github {
-  background-image: url("../img/github-logo.png");
+  background-image: url("../img/github-logo-min.png");
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;

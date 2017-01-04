@@ -1,5 +1,5 @@
 .project-panel {
-  background-image: url("../img/blue-wall.jpg");
+  background-image: url("../img/blue-wall-min.jpg");
   background-size: cover;
   padding-top: 46px;
 }
@@ -45,19 +45,19 @@
   text-align: left;
 }
 .project-calculator {
-  background-image: url("../img/calculator-small.jpg");
+  background-image: url("../img/calculator-small-min.jpg");
 }
 .project-report {
-  background-image: url("../img/crypto-wallpaper-small.jpg");
+  background-image: url("../img/crypto-wallpaper-small-min.jpg");
 }
 .project-raspberry {
-  background-image: url("../img/raspberry.jpg");
+  background-image: url("../img/raspberry-min.jpg");
 }
 .project-binary {
-  background-image: url("../img/binary-wall.jpg");
+  background-image: url("../img/binary-wall-min.jpg");
 }
 .project-password {
-  background-image: url("../img/password.jpg");
+  background-image: url("../img/password-min.jpg");
 }
 .project-download {
   text-decoration: none;

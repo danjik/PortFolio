@@ -20,7 +20,7 @@ const Footer = React.createClass({
               </div>
               <div className="contact-information">
                 <ActionRoom style={ styleIcons } color={ white } />
-                <span>36, rue du Clos Augier 87000 Limoges</span>
+                <span>Limoges</span>
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ const Footer = React.createClass({
                 <span>Jordan Taillefer</span>
               </div>
               <div className="contact-information">
-                <span>&#169; 2016</span>
+                <span>&#169; 2017</span>
               </div>
             </div>
           </div>

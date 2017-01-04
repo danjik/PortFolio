@@ -1,5 +1,5 @@
 .achievements {
-  background-image: url("../img/blue-wall-cloud.jpg");
+  background-image: url("../img/blue-wall-cloud-min.jpg");
   background-size: cover;
   padding-top: 46px;
 }
@@ -42,21 +42,21 @@
   color : #555;
 }
 .img-calculator {
-  background-image: url("../img/calculator.jpg");
+  background-image: url("../img/calculator-min.jpg");
   background-size: cover;
 }
 .img-mix-it {
-  background-image: url("../img/mix-it-logo.png");
+  background-image: url("../img/mix-it-logo-min.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #EE5351;
 }
 .img-report {
-  background-image: url("../img/crypto-wallpaper.jpg");
+  background-image: url("../img/crypto-wallpaper-min.jpg");
   background-size: cover;
 }
 .img-react {
-  background-image: url("../img/react-logo.png");
+  background-image: url("../img/react-logo-min.png");
   background-size: cover;
 }

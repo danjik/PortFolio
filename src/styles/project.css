@@ -1,5 +1,5 @@
 .project-panel {
-  background-image: url("../img/blue-wall-min.jpg");
+  background-color: cornflowerblue;
   background-size: cover;
   padding-top: 46px;
 }
@@ -43,9 +43,6 @@
   flex-direction: column;
   display: flex;
   text-align: left;
-}
-.project-calculator {
-  background-image: url("../img/calculator-small-min.jpg");
 }
 .project-report {
   background-image: url("../img/crypto-wallpaper-small-min.jpg");

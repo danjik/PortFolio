@@ -22,7 +22,7 @@
 
 .timeline-panel {
   height: auto;
-  background-image: url('../img/blue-wall-min.jpg');
+  background-color: cornflowerblue;
   padding-top: 32px;
   padding-bottom: 32px;
 }

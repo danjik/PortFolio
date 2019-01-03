@@ -15,10 +15,10 @@ var Contact = React.createClass({
     return (
       <div className="contact-panel">
         <div className="flex-center contact-location">
-          <Link to="https://goo.gl/maps/AEHDVAdDCZC2" target="_blank"
+          <Link to="https://goo.gl/maps/5UnPh8wAHhv" target="_blank"
             className="flex-center pdf-download">
             <ActionRoom style={ styleIcons } color={ grey800 } />
-            <span>Limoges</span>
+            <span>Cachan</span>
           </Link>
         </div>
         <div className="flex-center contact-email">

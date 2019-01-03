@@ -1,5 +1,5 @@
 .production {
-  background-image: url('../img/blue-wall.jpg');
+  background-color: cornflowerblue;
   background-size: cover;
 }
 .production-list {

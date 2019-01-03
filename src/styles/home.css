@@ -24,8 +24,6 @@
   height: 100%;
   flex-direction: column;
 }
-.home-presentation span {
-}
 .home-name {
   font-size: 32px;
   padding-bottom: 16px;

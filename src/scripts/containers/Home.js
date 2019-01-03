@@ -21,7 +21,7 @@ var Home = React.createClass({
           <div className="overlay"></div>
           <div className="flex-center home-presentation">
             <span className="home-name">Jordan Taillefer</span>
-            <span className="home-job">Developer | Security Analyst</span>
+            <span className="home-job">Software engineer</span>
             <Contact/>
           </div>
         </div>
